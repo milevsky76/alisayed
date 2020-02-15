@@ -2,21 +2,6 @@
 
 @import 'fonts'
 
-body
-  +roboto
-  font-size: 16px
-  line-height: 28px
-  +regular
-  color: #262f32
-  background-color: #FFFFFF
-  
-.visually-hidden 
-  position: absolute !important
-  clip: rect(1px 1px 1px 1px)
-  clip: rect(1px, 1px, 1px, 1px)
-  padding: 0 !important
-  border: 0 !important
-  height: 1px !important
-  width: 1px !important
-  overflow: hidden
+@import '_body'
 
+@import 'blocks/_header'
