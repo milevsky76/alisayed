@@ -217,8 +217,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .container {
@@ -299,5 +301,154 @@ body {
   width: 33px;
   height: 3px;
   background-color: #3A4245;
+}
+
+.button {
+  font-size: 16.57px;
+  line-height: 29px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  letter-spacing: 0.6px;
+  border-radius: 12px;
+}
+
+.main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-content_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.features {
+  width: 614px;
+  padding: 57px 97px 62px 60px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(30, 146, 175, 0.75)), to(rgba(30, 146, 175, 0.75))), url(../img/newspapers.jpg);
+  background: linear-gradient(rgba(30, 146, 175, 0.75), rgba(30, 146, 175, 0.75)), url(../img/newspapers.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  color: #ffffff;
+}
+
+.features__title {
+  margin: 0;
+  padding: 0;
+  font-size: 45px;
+  line-height: 66px;
+  font-weight: 300;
+  letter-spacing: 1.4px;
+  margin-bottom: 22px;
+}
+
+.features__title_black {
+  font-weight: 900;
+}
+
+.features__text {
+  margin: 0;
+  padding: 0;
+  width: 457px;
+  font-size: 15.57px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  margin-bottom: 67px;
+}
+
+.features__text:last-child {
+  margin-bottom: 0px;
+}
+
+.best {
+  min-height: 427px;
+  padding: 56px 54px;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, rgba(255, 244, 210, 0.91)), color-stop(50%, rgba(255, 244, 210, 0.91))), url(../img/icons-on-the-table.jpg);
+  background-image: linear-gradient(to top, rgba(255, 244, 210, 0.91) 50%, rgba(255, 244, 210, 0.91) 50%), url(../img/icons-on-the-table.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.best__title {
+  margin: 0;
+  padding: 0;
+  font-size: 45px;
+  line-height: 66px;
+  font-weight: 300;
+  letter-spacing: 1.4px;
+  margin-bottom: 23px;
+}
+
+.best__title_black {
+  font-weight: 900;
+}
+
+.best__text {
+  margin: 0;
+  padding: 0;
+  width: 542px;
+  font-size: 15.57px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  margin-bottom: 58px;
+}
+
+.best__button {
+  padding: 13px 39px 17px;
+  color: #262f32;
+  border: 1px solid #262f32;
+}
+
+.verified {
+  min-height: 426px;
+  padding: 56px 54px;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, rgba(22, 38, 51, 0.75)), color-stop(50%, rgba(22, 38, 51, 0.75))), url(../img/music-column-on-the-shelf.jpg);
+  background-image: linear-gradient(to top, rgba(22, 38, 51, 0.75) 50%, rgba(22, 38, 51, 0.75) 50%), url(../img/music-column-on-the-shelf.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  color: #ffffff;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.verified__title {
+  margin: 0;
+  padding: 0;
+  font-size: 45px;
+  line-height: 66px;
+  font-weight: 300;
+  letter-spacing: 1.15px;
+  margin-bottom: 23px;
+}
+
+.verified__title_black {
+  font-weight: 900;
+}
+
+.verified__text {
+  margin: 0;
+  padding: 0;
+  margin-right: 80px;
+  font-size: 15.57px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  margin-bottom: 58px;
+}
+
+.verified__button {
+  padding: 13px 43px 17px;
 }
 /*# sourceMappingURL=style.css.map */
