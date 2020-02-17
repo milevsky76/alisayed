@@ -451,4 +451,63 @@ body {
 .verified__button {
   padding: 13px 43px 17px;
 }
+
+.main-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.webpage {
+  width: 458px;
+  min-height: 715px;
+  color: #ffffff;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, rgba(29, 83, 103, 0.75)), color-stop(50%, rgba(29, 83, 103, 0.75))), url(../img/girl-sitting-on-a-rock.jpg);
+  background-image: linear-gradient(to top, rgba(29, 83, 103, 0.75) 50%, rgba(29, 83, 103, 0.75) 50%), url(../img/girl-sitting-on-a-rock.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 57px 52px 57px 62px;
+}
+
+.webpage__desc {
+  margin: 0;
+  padding: 0;
+  font-size: 45px;
+  line-height: 66px;
+  font-weight: 300;
+  letter-spacing: 1.15px;
+  margin-bottom: 253px;
+}
+
+.webpage__desc_black {
+  font-weight: 900;
+}
+
+.webpage__icon {
+  margin-left: -3px;
+  margin-bottom: 19px;
+}
+
+.webpage__title {
+  margin: 0;
+  padding: 0;
+  font-size: 42px;
+  line-height: 66px;
+  font-weight: 900;
+  margin-left: -4px;
+  letter-spacing: 0.9px;
+  margin-bottom: 1px;
+}
+
+.webpage__text {
+  font-size: 16.57px;
+  line-height: 30px;
+  margin-left: -4px;
+  letter-spacing: 0.6px;
+}
 /*# sourceMappingURL=style.css.map */
