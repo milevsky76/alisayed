@@ -221,6 +221,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  overflow-x: hidden;
 }
 
 .container {
@@ -464,6 +465,9 @@ body {
   color: #ffffff;
   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, rgba(29, 83, 103, 0.75)), color-stop(50%, rgba(29, 83, 103, 0.75))), url(../img/girl-sitting-on-a-rock.jpg);
   background-image: linear-gradient(to top, rgba(29, 83, 103, 0.75) 50%, rgba(29, 83, 103, 0.75) 50%), url(../img/girl-sitting-on-a-rock.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -509,5 +513,149 @@ body {
   line-height: 30px;
   margin-left: -4px;
   letter-spacing: 0.6px;
+}
+
+.sayhello {
+  width: 908px;
+  min-height: 715px;
+  color: #ffffff;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, rgba(90, 102, 95, 0.5)), color-stop(50%, rgba(90, 102, 95, 0.5))), url(../img/road.jpg);
+  background-image: linear-gradient(to top, rgba(90, 102, 95, 0.5) 50%, rgba(90, 102, 95, 0.5) 50%), url(../img/road.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 60px 55px;
+}
+
+.sayhello__title {
+  margin: 0;
+  padding: 0;
+  font-size: 45px;
+  line-height: 66px;
+  font-weight: 300;
+  letter-spacing: 1.15px;
+  margin-bottom: 41px;
+}
+
+.sayhello__title_black {
+  font-weight: 900;
+}
+
+.sayhello__text {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.9px;
+  margin-bottom: 17px;
+}
+
+.sayhello__text_end {
+  letter-spacing: 0.52px;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.sayhello-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 619px;
+  margin-bottom: 79px;
+}
+
+.sayhello-form__item {
+  margin: 0;
+  padding: 0;
+}
+
+.sayhello-form input {
+  width: 303px;
+  margin-left: -2px;
+  padding: 12px 27px;
+  letter-spacing: 0.8px;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #FFFFFF;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  border-radius: 14px;
+}
+
+.sayhello-form textarea {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  bottom: 0;
+  width: 620px;
+  height: 161px;
+  margin-top: auto;
+  padding: 14px 28px;
+  letter-spacing: 0.8px;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #FFFFFF;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  border-radius: 14px;
+  resize: none;
+}
+
+#sayhello-form__email {
+  margin-left: 13px;
+}
+
+#sayhello-form__mass {
+  margin-top: 13px;
+  margin-left: -2px;
+}
+
+.social-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -2px;
+  margin-bottom: 43px;
+}
+
+.social-nav__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 45px;
+  height: 45px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.social-nav__item {
+  margin-right: 6px;
+}
+
+.facebook {
+  background-image: url(../img/facebook-icon.png);
+}
+
+.dribbble {
+  background-image: url(../img/dribbble-icon.png);
+}
+
+.twitter {
+  background-image: url(../img/twitter-icon.png);
 }
 /*# sourceMappingURL=style.css.map */
