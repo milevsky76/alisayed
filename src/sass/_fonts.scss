@@ -4,18 +4,18 @@
     font-family: 'Roboto', sans-serif;
 }
 
-@mixin light {
+@mixin rLi {
     font-weight: 300;
 }
 
-@mixin regular {
+@mixin rRe {
     font-weight: 400;
 }
 
-@mixin bold {
+@mixin rBo {
     font-weight: 700;
 }
 
-@mixin black {
+@mixin rBl {
     font-weight: 900;
 }
