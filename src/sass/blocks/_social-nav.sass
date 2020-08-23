@@ -1,0 +1,43 @@
+.social-nav
+    list-style-type: none
+    display: flex
+.social-nav__item
+    &:not(:last-child)
+        margin-right: 7px
+.social-nav__link
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 44px
+    height: 44px
+    border: 1px solid transparent
+    border-radius: 5px
+    outline: none
+    transition: border 0.3s
+    &::before
+        content: ''
+        background-repeat: no-repeat
+        background-position: center
+    &:hover, &:focus
+        border: 1px solid #ffffff
+
+.social-nav__link_facebook
+    background-color: #345BB4
+    &::before
+        width: 13px
+        height: 24px
+        background-image: url(../img/icon-facebook.svg)
+        
+.social-nav__link_dribbble
+    background-color: #E64895
+    &::before
+        width: 25px
+        height: 25px
+        background-image: url(../img/icon-dribbble.svg)
+
+.social-nav__link_twitter
+    background-color: #00AFF8
+    &::before
+        width: 23px
+        height: 19px
+        background-image: url(../img/icon-twitter.svg)
