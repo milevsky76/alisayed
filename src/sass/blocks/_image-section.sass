@@ -1,7 +1,7 @@
 .image-section
     position: relative
     overflow: hidden
-    min-height: 715px
+    min-height: 52.34% //715px
 
 .image-section__img
     position: absolute
@@ -12,3 +12,10 @@
     width: 100%
     object-fit: cover
     object-position: center top 
+
+@media screen and ( max-width: 960px )
+    .image-section__img
+        object-position: left top 
+@media screen and ( max-width: 700px )
+    .image-section
+        min-height: 300px
